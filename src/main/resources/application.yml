@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: Bank-Project
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: saaho
+    url: jdbc:mysql://127.0.0.1:3306/bank
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: ylfd gzck dfsq kqxg
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: tonystarkironman1696@gmail.com
+
+    
+app:
+ messages:
+  resSuccMsg: Registration Successfull
+  regFailMsg: Registration Failure
+  loginSuccMsg: Login Successfull
+  loginFailMsg: Invalid Credientials
+  transSuccMsg: Sent SuccessFully
+  transFailMsg: Transfer Failed Due To InSuccficient Funds
+      
