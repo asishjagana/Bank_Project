@@ -3,7 +3,7 @@ spring:
     name: Bank-Project
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: saaho
+    password: ****
     url: jdbc:mysql://127.0.0.1:3306/bank
     username: root
   jpa:
@@ -12,7 +12,7 @@ spring:
     show-sql: true
   mail:
     host: smtp.gmail.com
-    password: ylfd gzck dfsq kqxg
+    password: **** **** **** ****
     port: 587
     properties:
       mail:
@@ -20,7 +20,7 @@ spring:
           auth: true
           starttls:
             enable: true
-    username: tonystarkironman1696@gmail.com
+    username: **********1696@gmail.com
 
     
 app:
